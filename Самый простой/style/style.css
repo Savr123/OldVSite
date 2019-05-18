@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+}
+.spec-navbar{
+  background-color: #fff;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #000;
+  color:#000;
+}
+.spec-nav-link{
+  color:#000;
+}
