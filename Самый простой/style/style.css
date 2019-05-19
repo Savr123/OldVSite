@@ -9,11 +9,35 @@ body{
 }
 .spec-navbar{
   background-color: #fff;
-  border-radius: 5px;
-  border-width: 1px;
-  border-color: #000;
-  color:#000;
+  border-bottom-color: #ced4da;
+  border-bottom-width: 1px ;
+  border-bottom-style: solid;
+  width: 100%;
 }
 .spec-nav-link{
   color:#000;
+}
+#spec-nav-personal{
+  display: flex;
+  flex-direction: row-reverse;
+}
+#spec-nav-link-liked{
+  color:#000;
+}
+#spec-nav-link-liked :hover{
+  color:#0056b3;
+}
+#spec-nav-link-profile{
+  background-image: url('profileImg.jpg');
+  width: 50px;
+  height: 50px;
+  border-radius: 42px;
+  margin:0 12px;
+}
+.spec-nav-link-anim{
+  text-decoration: none;
+  transition: 0.1s;
+}
+.spec-nav-link-anim :hover{
+  color:#0056b3;
 }
