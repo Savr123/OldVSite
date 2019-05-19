@@ -21,7 +21,6 @@
         <input type="password" id="password" name="password" placeholder="Введите пароль" class="form-control" value=""><br>
         <input type="password" id="password" name="password" placeholder="Введите пароль повторно" class="form-control" value=""><br>
 
-        <button type="button" id="sendMail" name="button" class="btn btn-success">Отправить</button><br>
         <button formaction="registration.php" > Регистрация </button>
       </form>
       <div id="errorMess"></div>
